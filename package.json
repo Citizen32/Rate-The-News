@@ -1,0 +1,28 @@
+{
+  "name": "rate-the-news",
+  "version": "1.0.0",
+  "description": "scrape news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Citizen32/Rate-The-News.git"
+  },
+  "author": "david morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Citizen32/Rate-The-News/issues"
+  },
+  "homepage": "https://github.com/Citizen32/Rate-The-News#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.6",
+    "request": "^2.83.0"
+  }
+}
